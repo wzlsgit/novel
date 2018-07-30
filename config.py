@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+
+DIALECT='mysql'
+DRIVER='mysqldb'
+USERNAME='root'
+PASSWORD='1a2s3d$f'
+HOST='192.168.100.56'
+PORT='22767'
+DATABASE='flask_db_s'
+SQLALCHEMY_DATABASE_URI="{}+{}://{}:{}@{}:{}/{}?charset=utf8".format(DIALECT,DRIVER,USERNAME,PASSWORD,HOST,PORT,DATABASE)
+SQLALCHEMY_TRACK_MODIFICATIONS=False
